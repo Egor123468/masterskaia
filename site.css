@@ -1,0 +1,142 @@
+.btn-primary {
+    background-color: #EA3223;
+    width: 149px;
+}
+
+.icon--rounded {
+    border-radius: 24px;
+}
+
+.icon--rounded-bottom {
+    border-radius: 0 0 24px 24px;
+    width: 100%;
+    
+}
+
+.card__content {
+    display: flex;
+    flex-direction: row;
+}
+.card p{
+    padding: 42px 0 42px 0;
+    
+}
+.card {
+    border: none;
+    
+}
+
+.card__image img{
+    position: relative;
+    width: 100%;
+    border-radius: 24px;
+}
+
+.custom-col {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.icon {
+    width: 50px; /* Задайте нужную ширину */
+    height: 50px; /* Задайте нужную высоту */
+}
+
+.red-background {
+    background-color: #EA3223;
+    color: #fff;
+    border-radius: 200px 0 200px 200px;
+}
+.red-background-p{
+    color: #FFA69E;
+}
+.white-icon {
+    filter: brightness(0) invert(1);
+}
+
+.white-button {
+    background-color: white;
+    border-color: white;
+    color: #EA3223; 
+    width: 100%;
+}
+p{
+    color: #737373;
+    font-size: 20px;
+}
+h2{
+    font-size: 40px;
+}
+.col-12 {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+ .azaz{
+    padding: 146px 63px;
+ }
+ .row{
+    padding: 0 0 76px 0;
+ }
+ .form {
+    display: flex;
+    height: 695px;
+    background-color: #EA3223;
+    border-radius: 32px;
+}
+
+.form__field {
+    padding: 64px;
+    flex: 1;
+}
+
+.form__title {
+    color: white;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.form__input-group {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.form__input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form__button {
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    color: #EA3223;
+    font-weight: bold;
+}
+
+.form__button:hover {
+    background-color: #f0f0f0;
+    border-color: #f0f0f0;
+}
+.form__text {
+    flex: 1;
+    padding: 120px 62px 0 0;
+    color: white;
+    font-size: 18px;
+}
+.form__text p{
+    color: white;
+}
