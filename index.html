@@ -1,100 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet"  href="site.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="site.css">
 </head>
+
 <body>
-    <section class="container">
-        <div class="card">
-            <div class="card__content">
-                <div class="col-12 col-lg-5">
-                    
-                        <div class="icon-set">
-                            <img class="icon--rounded" src="picture/Vector-9.svg" alt="" data-icon="first">
-                        </div>
-                        <h2>Есть над чем задуматься:</h2>
-                        <p>Предварительные выводы неутешительны: семантический разбор внешних противодействий представляет собой интересный эксперимент проверки модели развития. Идейные соображения высшего порядка.</p>
-                        <button class="btn btn-primary"> Перейти
-                            <img src="picture/arrow-narrow-right.svg" alt=""> 
-                        </button>
-                        <img class="icon--rounded-bottom" src="picture/Frame 71.svg" alt="">
-                    
-                </div>
-                <div class="card__image">
-                    <img src="picture/image 7.svg" alt="">
-                </div>
-            </div>
-            <p>Вот вам яркий пример современных тенденций — повышение уровня гражданского сознания позволяет оценить значение благоприятных перспектив. Внезапно, сторонники тоталитаризма в науке набирают популярность среди определенных слоев населения, а значит, должны быть превращены в посмешище, хотя само их существование приносит несомненную пользу обществу.</p>
+    <header class="header">
+        <div class="logo">
+            <img src="picture/Vector-10.svg">
         </div>
-    </section>
-   <section class="container news">
-    
-        <div class="row justify-content-between">
-            <div class="col-6 custom-col">
-                <img src="picture/image.svg" alt="" class="img-fluid">
+        <nav class="nav">
+            <ul>
+                <li><button class="nav-button "><a href="#action1">Главная</a></button></li>
+                <li><button class="nav-button"><a href="#action2">Новости</a></button></li>
+                <li><button class="nav-button"><a href="#action5">Мастера</a></button></li>
+                <li><button class="nav-button"><a href="#action6">Информация</a></button></li>
+                <li><button class="nav-button"><a href="#action7">Контакты</a></button></li>
+            </ul>
+        </nav>
+        <div class="header__phone">+7 (345) 359 99 99</div>
+    </header>
+    <div class="container__main">
+        <section class="container">
+            <div class="container__mobile">
+                <img class="card_mobile_img" src="picture/image 7.svg"></img>
+                <div class="card">
+                    <div class="card__content">
+                        <div class="col-12 col-lg-5">
+                            <div class="card_info">
+                                <div class="icon-set">
+                                    <img class="icon--rounded" src="picture/Vector-9.svg" alt="" data-icon="first">
+                                </div>
+                                <h2>Есть над чем задуматься:</h2>
+                                <p>Предварительные выводы неутешительны: семантический разбор внешних противодействий
+                                    представляет собой интересный эксперимент проверки модели развития. Идейные
+                                    соображения высшего порядка.</p>
+                                <button class="btn btn-primary"> Перейти
+                                    <img src="picture/arrow-narrow-right.svg" alt="">
+                                </button>
+                            </div>
+                            <div class="card__image_bottom">
+                                <img class="icon--rounded-bottom" src="picture/Frame 71.svg" alt="">
+                            </div>
+
+
+                        </div>
+                        <div class="card__image">
+                            <img src="picture/image 7.svg" alt="">
+                        </div>
+                    </div>
+                    <p class="card__text">Вот вам яркий пример современных тенденций — повышение уровня гражданского
+                        сознания позволяет оценить значение благоприятных перспектив. Внезапно, сторонники тоталитаризма
+                        в науке набирают популярность среди определенных слоев населения, а значит, должны быть
+                        превращены в посмешище, хотя само их существование приносит несомненную пользу обществу.</p>
+                </div>
             </div>
-            <div class="col-6 custom-col red-background">
-                <div class="azaz">
-                    <img src="picture/Vector-7.svg" alt="" class="icon white-icon">
-                <h2>И нет сомнений, что стремящиеся вытеснить.</h2>
-                <p class="red-background-p">Предварительные выводы неутешительны: семантический разбор внешних противодействий представляет собой интересный эксперимент проверки модели развития. Идейные соображения высшего порядка.</p>
-                <button class="btn btn-primary white-button"> Перейти
-                    <img src="picture/arrow-narrow-right.svg" alt=""> 
-                </button>
+            <div class="card__mobile_image_bottom">
+                <img class="icon--rounded-bottom" src="picture/Vector Pattern.svg" alt="">
+            </div>
+        </section>
+         <section class="container news">
+        
+            <div class="row ">
+                <div class="col-6 custom-col">
+                    <img src="picture/image.svg" alt="" class="img-fluid">
+                </div>
+                <div class="col-6 custom-col red-background">
+                    <div class="azaz">
+                        <img src="picture/Vector-7.svg" alt="" class="icon white-icon">
+                    <h2 class="azaz_h2">И нет сомнений, что стремящиеся вытеснить.</h2>
+                    <p class="red-background-p">Предварительные выводы неутешительны: семантический разбор внешних противодействий представляет собой интересный эксперимент проверки модели развития. Идейные соображения высшего порядка.</p>
+                    <button class="btn btn-primary white-button"> Перейти
+                        <img src="picture/arrow-narrow-right.svg" alt=""> 
+                    </button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-6 custom-col">
+                    <div class="azaz-1">
+                        <img src="picture/Vector-5.svg" alt="" class="icon">
+                    <h2>Идейные соображения высшего порядка, а также укрепление и.</h2>
+                    <p>Предварительные выводы неутешительны: семантический разбор внешних противодействий представляет собой интересный эксперимент проверки модели развития. Идейные соображения высшего порядка.</p>
+                    <button class="btn btn-primary"> Перейти
+                        <img src="picture/arrow-narrow-right.svg" alt=""> 
+                    </button>
+                    </div>
+                    
+                </div>
+                <div class="col-6 custom-col">
+                    <img src="picture/image1.svg" alt="" class="img-fluid">
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-6 custom-col">
+                    <img src="picture/image2.svg" alt="" class="img-fluid">
+                </div>
+                <div class="col-6 custom-col">
+                    <div class="azaz-1">
+                        <img src="picture/Vector-8.svg" alt="" class="icon ">
+                    <h2>Ясность нашей позиции очевидна:</h2>
+                    <p>Предварительные выводы неутешительны: семантический разбор внешних противодействий представляет собой интересный эксперимент проверки модели развития. Идейные соображения высшего порядка.</p>
+                    <button class="btn btn-primary"> Перейти
+                        <img src="picture/arrow-narrow-right.svg" alt=""> 
+                    </button>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="container">
+        <div class="form">
+            <div class="form_info">
+                <div class="form__field">
+                    <div class="form__title">Оставить заявку</div>
+                    <div class="form_group">
+                        <form action="">
+                            <div class="form__input-group">
+                                <input type="text" class="form__input" placeholder="Email">
+                            </div>
+                            <div class="form__input-group">
+                                <input type="email" class="form__input" placeholder="Номер телефона">
+                            </div>
+                            <button type="submit" class="form__button">Отправить</button>
+                        </form>
+                        <div class="form__text">
+                            <p>Мы вынуждены отталкиваться от того, что глубокий уровень погружения предполагает независимые способы реализации экспериментов, поражающих по своей масштабности и грандиозности. В частности, перспективное планирование требует от нас анализа стандартных подходов. Как принято считать, непосредственные участники технического прогресса, </p>
+                        </div>
+                    </div>
+                    
                 </div>
                 
             </div>
-        </div>
-        <div class="row justify-content-between">
-            <div class="col-6 custom-col">
-                <img src="picture/Vector-5.svg" alt="" class="icon">
-                <h2>Идейные соображения высшего порядка, а также укрепление и.</h2>
-                <p>Предварительные выводы неутешительны: семантический разбор внешних противодействий представляет собой интересный эксперимент проверки модели развития. Идейные соображения высшего порядка.</p>
-                <button class="btn btn-primary"> Перейти
-                    <img src="picture/arrow-narrow-right.svg" alt=""> 
-                </button>
-            </div>
-            <div class="col-6 custom-col">
-                <img src="picture/image1.svg" alt="" class="img-fluid">
-            </div>
-        </div>
-        <div class="row justify-content-between">
-            <div class="col-6 custom-col">
-                <img src="picture/image2.svg" alt="" class="img-fluid">
-            </div>
-            <div class="col-6 custom-col">
-                <img src="picture/Vector-8.svg" alt="" class="icon ">
-                <h2>Ясность нашей позиции очевидна:</h2>
-                <p>Предварительные выводы неутешительны: семантический разбор внешних противодействий представляет собой интересный эксперимент проверки модели развития. Идейные соображения высшего порядка.</p>
-                <button class="btn btn-primary"> Перейти
-                    <img src="picture/arrow-narrow-right.svg" alt=""> 
-                </button>
-            </div>
-        </div>
-</section>
-<section class="container">
-    <div class="form">
-        <div class="form__field">
-            <div class="form__title">Оставить заявку</div>
-            <form action="">
-                <div class="form__input-group">
-                    <input type="text" class="form__input" placeholder="Email">
+            
+            <div class="investors">
+                <p>При поддержке:</p>
+                <div class="investors_picture">
+                    <img class="picture_invest" src="picture/image 8.svg" alt="">
+                    <img class="picture_invest" src="picture/image 8.svg" alt="">
+                    <img class="picture_invest" src="picture/image 8.svg" alt="">
+                    <img class="picture_invest" src="picture/image 8.svg" alt="">
+                    <img class="picture_invest" src="picture/image 8.svg" alt="">
                 </div>
-                <div class="form__input-group">
-                    <input type="email" class="form__input" placeholder="Номер телефона">
-                </div>
-                <button type="submit" class="form__button">Отправить</button>
-            </form>
+            </div>
         </div>
-        <div class="form__text">
-            <p>Мы вынуждены отталкиваться от того, что глубокий уровень погружения предполагает независимые способы реализации экспериментов, поражающих по своей масштабности и грандиозности. В частности, перспективное планирование требует от нас анализа стандартных подходов. Как принято считать, непосредственные участники технического прогресса, </p>
-        </div>
-        <div class="investors"></div>
+    </section> 
     </div>
-</section>
+
+    <!-- <footer class="container">
+    <div class="footer">
+        <div class="footer_city">Ялуторовск 2024</div>
+        <div class="footer_name">
+            <p>Мастерская Сибири</p>
+            <p>©2024</p>
+        </div>
+    </div>
+</footer>  -->
 </body>
+
 </html>
