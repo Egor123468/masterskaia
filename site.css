@@ -27,6 +27,7 @@ body {
     white-space: nowrap;
     margin: 20px auto;
     max-width: 1350px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
 
 
 }
@@ -36,7 +37,7 @@ a {
     color: white;
 }
 
-.logo img {
+.header__logo img {
    position: relative;
    height: 47px;
    width: auto;
@@ -49,7 +50,7 @@ a {
     line-height: 24px;
 }
 
-.nav {
+.header__nav {
     text-decoration: none;
     height: 23px;
     flex-grow: 0;
@@ -59,7 +60,7 @@ a {
     align-items: center;
 }
 
-.nav ul {
+.header__nav ul {
     display: flex;
     list-style: none;
     margin: 0;
@@ -69,7 +70,7 @@ a {
     gap: 64px;
 }
 
-.nav li {
+.header__nav li {
     margin: 0;
     
     gap: 10px;
@@ -113,7 +114,7 @@ a {
         color: white;
         font-size: 14px;
     }
-    .logo img {
+    .header__logo img {
         height: 48px;
         padding: 0;
         width: 120px;
@@ -137,7 +138,7 @@ a {
         display: none;
     }
 
-    .nav {
+    .header__nav {
         display: none;
     }
 
@@ -146,6 +147,56 @@ a {
 
 
     }
+}
+.navbar{
+    display: none;
+}
+@media screen and (max-width:996px) {
+    .navbar {
+        display: block;
+        background-color: rgba(255, 255, 255, 0);
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        z-index: 9;
+        padding: 20px 10px;;
+      }
+      
+    
+      
+    .navbar__tools{
+        background-color: #EA3223;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 24px;
+        height: 78px;
+        padding: 16px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    }
+      
+      .navbar a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        text-decoration: none;
+        font-size: 12px;
+      }
+    
+      .navbar_icon{
+        display: flex ;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        outline: none;
+        background-color: #EA3223;
+        border: none;
+      }
+      
+      .navbar_icon img{
+        width: 24px;
+        height: 24px;
+      }
 }
 
 
@@ -242,7 +293,7 @@ padding: 0 0 0 24px;
         border-radius: 18px;
 
     }
-    .container__main{
+    .main-container{
         margin:0 16px;
     }
     .container__mobile{
@@ -351,19 +402,20 @@ h2{
     flex-direction: column;
     padding: 24px 0 0 0;
     
+    
 }
- .azaz{
+ .news-item.red{
     padding: 146px 63px;
     display: flex;
     flex-direction: column;
     gap: 20px;
  }
- .azaz-1{
+ .news-item{
     display: flex;
     flex-direction: column;
     gap: 20px;
  }
- .azaz_h2{
+ .news-item__title{
     line-height: 50px;
  }
  .row{
@@ -391,7 +443,7 @@ h2{
         max-width: none; /* Убирает максимальную ширину */
     }
 
-    .azaz {
+    .news-item {
         padding: 40px 20px; /* Уменьшение отступов для мобильных устройств */
     }
     .red-background{

@@ -12,10 +12,10 @@
 
 <body>
     <header class="header">
-        <div class="logo">
+        <div class="header__logo">
             <img src="picture/Vector-10.svg">
         </div>
-        <nav class="nav">
+        <nav class="header__nav">
             <ul>
                 <li><button class="nav-button "><a href="#action1">Главная</a></button></li>
                 <li><button class="nav-button"><a href="#action2">Новости</a></button></li>
@@ -26,7 +26,32 @@
         </nav>
         <div class="header__phone">+7 (345) 359 99 99</div>
     </header>
-    <div class="container__main">
+    <div class="navbar">
+        <div class="navbar__tools">
+            <button class="navbar_icon">
+                <img src="/picture/layout-alt-03.svg" alt="">
+                <a href="#">Новости</a>
+            </button>
+            <button class="navbar_icon">
+                <img src="/picture/users-02.svg" alt="">
+                <a href="#">Мастера</a>
+            </button>
+            <button class="navbar_icon">
+                <img src="/picture/home-smile.svg" alt="">
+                <a href="#">Главная</a>
+            </button>
+            <button class="navbar_icon">
+                <img src="/picture/info-square.svg" alt="">
+                <a href="#">Инфо</a>
+            </button>
+            <button class="navbar_icon">
+                <img src="/picture/phone.svg" alt="">
+                <a href="#">Контакты</a>
+            </button>
+            
+        </div>
+    </div>
+    <div class="main-container">
         <section class="container">
             <div class="container__mobile">
                 <img class="card_mobile_img" src="picture/image 7.svg"></img>
@@ -72,10 +97,10 @@
                     <img src="picture/image.svg" alt="" class="img-fluid">
                 </div>
                 <div class="col-6 custom-col red-background">
-                    <div class="azaz">
+                    <div class="news-item red">
                         <img src="picture/Vector-7.svg" alt="" class="icon white-icon">
-                    <h2 class="azaz_h2">И нет сомнений, что стремящиеся вытеснить.</h2>
-                    <p class="red-background-p">Предварительные выводы неутешительны: семантический разбор внешних противодействий представляет собой интересный эксперимент проверки модели развития. Идейные соображения высшего порядка.</p>
+                    <h2 class="news-item__title">И нет сомнений, что стремящиеся вытеснить.</h2>
+                    <p class="news-item__description red-background-p">Предварительные выводы неутешительны: семантический разбор внешних противодействий представляет собой интересный эксперимент проверки модели развития. Идейные соображения высшего порядка.</p>
                     <button class="btn btn-primary white-button"> Перейти
                         <img src="picture/arrow-narrow-right.svg" alt=""> 
                     </button>
@@ -85,7 +110,7 @@
             </div>
             <div class="row ">
                 <div class="col-6 custom-col">
-                    <div class="azaz-1">
+                    <div class="news-item">
                         <img src="picture/Vector-5.svg" alt="" class="icon">
                     <h2>Идейные соображения высшего порядка, а также укрепление и.</h2>
                     <p>Предварительные выводы неутешительны: семантический разбор внешних противодействий представляет собой интересный эксперимент проверки модели развития. Идейные соображения высшего порядка.</p>
@@ -104,7 +129,7 @@
                     <img src="picture/image2.svg" alt="" class="img-fluid">
                 </div>
                 <div class="col-6 custom-col">
-                    <div class="azaz-1">
+                    <div class="news-item">
                         <img src="picture/Vector-8.svg" alt="" class="icon ">
                     <h2>Ясность нашей позиции очевидна:</h2>
                     <p>Предварительные выводы неутешительны: семантический разбор внешних противодействий представляет собой интересный эксперимент проверки модели развития. Идейные соображения высшего порядка.</p>
@@ -153,7 +178,7 @@
     </section> 
     </div>
 
-    <!-- <footer class="container">
+    <footer class="container">
     <div class="footer">
         <div class="footer_city">Ялуторовск 2024</div>
         <div class="footer_name">
@@ -161,7 +186,7 @@
             <p>©2024</p>
         </div>
     </div>
-</footer>  -->
+</footer> 
 </body>
 
 </html>
