@@ -1,0 +1,124 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-12 {
+    box-sizing: border-box; 
+}
+
+.col-60 {
+    flex: 1 1 59%; /* Элемент занимает 60% ширины контейнера */
+}
+
+.col-40 {
+    flex: 1 1 41%; /* Элемент занимает 40% ширины контейнера */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+@media (max-width: 991px) {
+    .row {
+        flex-direction: column; /* Изменяет порядок элементов на вертикальный */
+    }
+
+    .col-60, .col-40 {
+        flex: 1 1 100%; /* Элементы занимают 100% ширины контейнера */
+    }
+
+    .col-60 {
+        order: 2; /* Меняет порядок элемента .col-60 */
+    }
+
+    .col-40 {
+        order: 1; /* Меняет порядок элемента .col-40 */
+        margin-bottom: 16px;
+    }
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    margin-bottom: 64px;
+}
+
+.card-photo{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 100%;
+
+}
+
+.card-photo img{
+    width: 100%;
+    height: 246px;
+    object-fit: cover;
+    border-radius: 64px;
+}
+
+.cards-container{
+    display: flex;
+}
+
+.mobile{
+    display: none;
+}
+@media (max-width: 991px){
+    .cards{
+        margin-bottom: 0;
+        gap: 16px;
+    }
+    .card-photo img{
+        height: 140px;
+        border-radius: 24px;
+    }
+    .mobile{
+        display: block;
+    }
+}
+
+p{
+    font-size: 15px;
+    color: #737373;
+}
+.text{
+    font-size: 20px;
+    font-weight: 400;
+    color:black;
+}
+
+.red-text{
+    font-size: 32px;
+    color: #EA3223;
+}
+@media (max-width: 991px){
+    h2{
+        font-size: 28px;
+    }
+    .text p{
+        font-size: 18px;
+        
+    }
+    .card-photo{
+        gap: 16px;
+    }
+    .red-text{
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .text{
+        margin-bottom: 0;
+    }
+    .bold{
+        font-weight: 600;
+    }
+    .custom-hr{
+        margin: 0;
+    }
+    .form{
+        margin-top: 16px;
+    }
+}
